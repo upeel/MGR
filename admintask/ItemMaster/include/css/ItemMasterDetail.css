@@ -1,0 +1,106 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 Jul, 2019, 10:35:09 AM
+    Author     : Steven
+*/
+
+/* for horizontal line item master tab */
+.horizontalLineMgr {
+    border-bottom: 3px solid #b7b7b7; 
+    position: relative; 
+    padding-right: 100%; 
+    top: 29.5px; 
+    padding-left: 0;
+}
+
+/* label span position */
+.spanLabelMgr {
+    padding: 0 50px;
+}
+
+/* label tabs when hover */
+label.tabs:hover {
+    cursor: pointer;
+}
+
+/* label tabs */
+label.tabs {
+    padding-bottom: 7px; 
+    position: relative;
+}
+
+/* color and border-bottom when tab checked */
+input.tabz:checked + label {
+  color: #197b30;
+  border-bottom: 3px solid #197b30;
+}
+
+/* label color and font family for tab item mgr*/
+input.tabz + label {
+    color: #666666;
+    font-family: 'OpenSans-Regular';
+}
+
+/* display none the section */
+section {
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* when checked show base content */
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3,
+#tab4:checked ~ #content4
+{
+  display:block;
+}
+
+/* display input check none the tab */
+#tab1, #tab2, #tab3, #tab4 {
+    display: none
+}
+
+/* section div margin top */
+.itemDetailSectionDiv {
+    top: 25px; 
+    position: relative;
+}
+
+/* btn mgr item update style */
+#btnUpdateItemDetails {
+    background: #197b30 !important;
+    border: 1px solid #197b30;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #fff !important;
+    width: 80px;
+    height: 35px;
+}
+
+/* tab logo */
+.logoItemMgr {
+    width: 20px; 
+    vertical-align: middle;
+}
+
+.logoTheadTableMgr
+{
+    width: 30px;
+    height: 30px;
+}
+
+.center{
+   padding-bottom: 20px; padding-left: 15px;
+}
+
+maxlength{
+    display: none;
+}

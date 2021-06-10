@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 17 Jun, 2019, 12:39:52 PM
+    Author     : Steven
+*/
+
+/* font for open sans ttf*/
+@font-face {
+    font-family: 'OpenSans-Bold';
+    src: URL('../../../../include/mgr/include/fonts/OpenSans-Bold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-BoldItalic';
+    src: URL('../../../../include/mgr/include/fonts/OpenSans-BoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBold';
+    src: URL('../../../../include/mgr/include/fonts/OpenSans-ExtraBold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-ExtraBoldItalic';
+    src: URL('../../../../include/mgr/include/fonts/OpenSans-ExtraBoldItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Italic';
+    src: URL('../../../../include/mgr/include/fonts/OpenSans-Italic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Light';
+    src: URL('../../../../include/mgr/include/fonts/OpenSans-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-LightItalic';
+    src: URL('../../../../include/mgr/include/fonts/OpenSans-LightItalic.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Regular';
+    src: URL('../../../../include/mgr/include/fonts/OpenSans-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-Semibold';
+    src: URL('../../../../include/mgr/include/fonts/OpenSans-Semibold.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'OpenSans-SemiboldItalic';
+    src: URL('../../../../include/mgr/include/fonts/OpenSans-SemiboldItalic.ttf') format('truetype');
+}
+/******/
+
+/*css for logo and h2 title text header*/
+.logoTitleMGR {
+    font-family: 'OpenSans-Bold';
+    color: #4a4a4a;
+    margin-right: 50px;
+    padding-right: 0;
+    float: right;    
+}
+.logoMGRTitleResp {
+    font-family: 'OpenSans-Bold';
+    color: #4a4a4a;
+    margin-right: 10px;
+    padding-right: 0;
+    float: right;   
+}
+
+.logoImageMGR {
+    width: 120px;
+    margin-left: 50px;
+    padding-left: 0;
+}
+
+.logoImageMGRResp {
+    width: 120px;
+    margin-left: 20px;
+    padding-left: 0;
+}
+

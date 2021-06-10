@@ -1,0 +1,28 @@
+.paddingTopBottom{
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.paddingBottom{
+    padding-bottom: 20px;
+}
+
+
+.paddingTop{
+    padding-top: 20px;
+}
+
+.update{
+    background-image: none !important;
+    width: 100px !important; 
+    margin-top: -20px !important; 
+    background-color: #197b30 !important; 
+    color: white !important; 
+    border-radius: 5px !important;
+}
+
+.inputNo{
+    background-color: #f6f6f6;
+    outline:none;
+    width: 10px !important;
+}

@@ -1,0 +1,131 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Jun, 2019, 12:37:22 PM
+    Author     : Steven
+*/
+
+/* button filter and add style */
+.btnMGRStyle {
+    background: #ffffff !important;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #197b30 !important;
+    border: 1px solid #197b30 !important;
+    width: 80px;
+    height: 35px;
+}
+
+/* when button hover or active the color change */
+.btnMGRStyle:hover, .btnMGRStyle:active {
+    background: #197b30 !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+}
+
+/* button button to border radius */
+a.dt-button, a.paginate_button {
+    border-radius: 5px !important;
+}
+
+/* div filter to the bottom same with button library datatables */
+div.dataTables_filter, div.dataTables_length {
+    margin-top: 5px;
+}
+
+/* set relative to the top of the container*/
+dt_searchAndButtonContainer_dtItemMasterList {
+    position: relative;
+    left: 5px;
+    bottom: 38px;
+}
+
+/*for text search, button library, show entries change into sans on font and color #666666 */
+div.dataTables_filter label,
+div.dt-buttons a.dt-button,
+div.dataTables_length label,
+div.dataTables_info,
+a.paginate_button,
+td.dataTables_empty,
+#dtItemMasterList tbody td
+{
+    font-family: 'OpenSans-Regular';
+    color: #666666 !important;
+}
+
+
+/* for input border*/
+#dt_searchAndButtonContainer_dtItemMasterList #dtItemMasterList_filter label input
+{
+   
+    overflow: hidden;
+    border: 1px solid #b7b7b7;
+    height: 30px;
+    font-family: 'OpenSans-Regular' !important;
+    color: #666666 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px;
+    outline-color: #197b30 !important;
+    
+}
+
+#dt_searchAndButtonContainer_dtItemMasterList{
+         padding-bottom: 80px;
+         bottom: 35px;
+         position: relative;
+}
+
+#dtItemMasterList_paginate
+{
+    position: relative;
+    bottom: 100px;
+}
+
+#dtItemMasterList_info
+{
+    position: relative;
+    bottom: 100px;
+}
+
+table.dataTable thead th
+{
+    border-bottom: 1px solid grey;
+}
+
+/*set input filter datatable to no margin top */
+div.dataTables_filter {
+    margin-top: 3.5px;
+}
+
+
+input[type="search"]:focus { 
+    overflow: hidden;
+    border: 1px solid #b7b7b7;
+    height: 30px;
+    font-family: 'OpenSans-Regular' !important;
+    color: #666666 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px !important;
+    outline: none;
+    border-color: #197b30 !important;
+}
+
+input[type="search"] { 
+    overflow: hidden;
+    border: 1px solid #b7b7b7;
+    height: 30px;
+    font-family: 'OpenSans-Regular' !important;
+    color: #666666 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px !important;
+    outline: none;
+}
+

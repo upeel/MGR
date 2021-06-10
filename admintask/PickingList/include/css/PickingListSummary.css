@@ -1,0 +1,64 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Jul, 2019, 5:27:58 PM
+    Author     : Wildan
+*/
+
+/* button button to border radius */
+a.dt-button, a.paginate_button {
+    border-radius: 5px !important;
+}
+
+/* display none for datatables_length built in from datatable*/
+#dtPickingListSummary_length label {
+    display: none !important;
+}
+
+/*for text search, button library, show entries change into sans on font and color #666666 */
+div.dataTables_filter label,
+div.dt-buttons a.dt-button,
+div.dataTables_length label,
+div.dataTables_info,
+a.paginate_button,
+td.dataTables_empty,
+#dtPickingListSummary tbody td
+{
+    font-family: 'OpenSans-Regular';
+    color: #666666 !important;
+}
+
+/** for datatables search button **/
+input[type="search"]:focus { 
+    overflow: hidden;
+    border: 1px solid #b7b7b7;
+    height: 30px;
+    font-family: 'OpenSans-Regular' !important;
+    color: #666666 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px !important;
+    outline: none;
+    border-color: #197b30 !important;
+}
+
+input[type="search"] { 
+    overflow: hidden;
+    border: 1px solid #b7b7b7;
+    height: 30px;
+    font-family: 'OpenSans-Regular' !important;
+    color: #666666 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px !important;
+    outline: none;
+}
+
+/*set input filter datatable to no margin top */
+div.dataTables_filter {
+    margin-top: 3.5px;
+}
+

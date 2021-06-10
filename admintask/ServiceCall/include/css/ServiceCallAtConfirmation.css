@@ -1,0 +1,60 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 7 Aug, 2019, 2:56:25 PM
+    Author     : Wildan
+*/
+
+/* button filter and add style */
+.btnMGRStyle {
+    background: #ffffff !important;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #197b30 !important;
+    border: 1px solid #197b30 !important;
+    width: 80px;
+    height: 35px;
+}
+
+/* when button hover or active the color change */
+.btnMGRStyle:hover, .btnMGRStyle:active {
+    background: #197b30 !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+}
+
+.buttons{
+  text-align: right;
+  position: relative;
+  top: auto;
+}
+
+/* Style the confirm button */
+#btnConfirm {
+  background: #197b30 !important;
+    border: 1px solid #197b30;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #fff !important;
+    width: 80px;
+    height: 35px;
+}
+/* Style the close button */
+#btnClose{
+    background: #ffffff !important;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #666666 !important;
+    border: 1px solid #b7b7b7 !important;
+    width: 80px;
+    height: 35px;
+}

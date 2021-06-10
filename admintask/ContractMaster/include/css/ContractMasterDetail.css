@@ -1,0 +1,139 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Jun, 2019, 12:37:31 PM
+    Author     : Wildan
+*/
+
+/* label tabs when hover */
+label.tabs:hover {
+    cursor: pointer;
+}
+
+/* label tabs */
+label.tabs {
+    padding-bottom: 7px; 
+    position: relative;
+}
+
+/* tab logo */
+.logoContractMgr {
+    width: 20px; 
+    vertical-align: middle;
+}
+
+/* label span position */
+.spanLabelMgr {
+    padding: 0 80px;
+}
+
+@media (max-width: 1079px) {
+    .spanLabelMgr {
+        padding: 0 5%;
+    }    
+}
+
+@media (max-width: 812px) {
+    .spanLabelMgr {
+        padding: 0 3%;
+    }    
+}
+
+@media (max-width: 690px) {
+    .spanLabelMgr {
+        padding: 0 2%;
+        font-size: 14px;
+    }    
+}
+
+@media (max-width: 594px) {
+    .spanLabelMgr {
+        padding: 0 2%;
+        font-size: 12px;
+    }
+}
+
+@media (max-width: 525px) {
+    .spanLabelMgr {
+        padding: 0 0;
+        font-size: 10px;
+    }
+}
+
+/* label horizontal line mgr */
+.horizontalLineMgr {
+    border-bottom: 3px solid #b7b7b7; 
+    position: relative; 
+    padding-right: 100%; 
+    top: 29.5px; 
+    padding-left: 0;
+}
+
+/* color and border-bottom when tab checked */
+input.tabz:checked + label {
+  color: #197b30;
+  border-bottom: 3px solid #197b30;
+}
+
+input.tabz + label {
+    color: #666666;
+    font-family: 'OpenSans-Regular';
+    /*border-bottom: 3px solid #b7b7b7;*/
+}
+
+/* display none the section */
+section {
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3 {
+  display:block;
+}
+
+/* display input check none the tab */
+#tab1, #tab2, #tab3 {
+    display: none
+}
+
+/* section div margin top */
+.contractDetailSectionDiv {
+    top: 25px; 
+    position: relative;
+}
+
+/* white background */
+.bgWhite {
+    background-color: #ffffff;
+}
+
+/* btn mgr posting style */
+#btnSubmitContractDetail {
+    background: #197b30 !important;
+    border: 1px solid #197b30;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #fff !important;
+    width: 80px;
+    height: 35px;
+}
+
+#btnBackContractDetail {
+    background: #ffffff !important;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #666666 !important;
+    border: 1px solid #b7b7b7 !important;
+    width: 80px;
+    height: 35px;
+}

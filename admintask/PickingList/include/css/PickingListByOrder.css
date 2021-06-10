@@ -1,0 +1,46 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 8 Jul, 2019, 5:15:04 PM
+    Author     : Wildan
+*/
+
+#tblPickingList tbody tr:last-child td {
+    padding-bottom: 5px;
+    border-bottom: none;
+}
+
+.mgrEachItemPickingBorderBottom {
+    border-bottom: 1px solid #b7b7b7;
+}
+
+/* for picking list check box */
+/*1*/
+input[type=checkbox].chkPickingList {
+    position: relative;
+    margin-bottom: 8px;
+}
+/*2*/
+.checkmarkMgr {
+    margin-left: 10px;
+}
+
+.plEachItemSide {
+    border-left: 1px solid #b7b7b7;
+}
+
+/* btn mgr picking list update style */
+#btnUpdatePickingList {
+    background: #197b30 !important;
+    border: 1px solid #197b30;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #fff !important;
+    width: 80px;
+    height: 35px;
+}

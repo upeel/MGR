@@ -1,0 +1,454 @@
+.formTable
+{
+    border-style: none;
+    border-width: 0px;
+    width: 100%; 
+    border-collapse: collapse;
+    margin: 0px auto; /* to center the table */
+    border-spacing: 0px 10px;
+    
+}
+
+.separate {
+  border-collapse: separate;
+}
+
+.collapsed {
+  border-collapse: collapse;
+}
+
+
+.formFieldText1
+{
+    color: #595959;  /* - lighter grey */
+    border-style: none;
+    border-width: 0px;
+    font-size: 14px;
+    height: 30px;
+    text-align: left;
+    
+}
+
+.defaultMGRForm
+{
+    background-color: #f6f6f6;
+    padding-top: 35px;
+    padding-bottom: 40px;
+    padding-right: 35px;
+    padding-left: 35px;    
+}
+
+
+html,
+body
+{
+    font-family: Arial;
+    font-size: 16px;
+}
+
+h1
+{
+    font-weight: normal;
+}
+
+input[type=text],
+input[type=number],
+input[type=button],
+select, 
+textarea
+{ 
+    width: 100%; 
+    box-sizing: border-box; /* to prevent it from overflowing out of the table */
+    font-family: Arial;
+    font-size: 14px;
+    color:#888992; /* lighter grey */
+}
+
+table.dataTable th 
+{
+    border-bottom: none !important;
+}
+input[type=button]
+{
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 0.333em;
+    padding: 0.5em 1em;
+    border: 1px solid #999;
+    border-radius: 2px;
+    cursor: pointer;
+    font-size: 0.88em;
+    color: black;
+    white-space: nowrap;
+    overflow: hidden;
+    background-color: #e9e9e9;
+    background-image: -webkit-linear-gradient(top, #fff 0%, #e9e9e9 100%);
+    background-image: -moz-linear-gradient(top, #fff 0%, #e9e9e9 100%);
+    background-image: -ms-linear-gradient(top, #fff 0%, #e9e9e9 100%);
+    background-image: -o-linear-gradient(top, #fff 0%, #e9e9e9 100%);
+    background-image: linear-gradient(to bottom, #fff 0%, #e9e9e9 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,StartColorStr='white', EndColorStr='#e9e9e9');
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-decoration: none;
+    outline: none;
+}
+
+input::placeholder
+{
+    opacity: 0.5;
+}
+
+.dataTables_length select
+{
+    width:auto;
+}
+
+.ui-dialog-content 
+{ 
+    overflow: visible !important; 
+}
+
+.ui-autocomplete 
+{
+    max-height: 30%;
+    overflow-y: auto;
+    /*prevent horizontal scrollbar*/ 
+    overflow-x: hidden;
+
+    border: 1px solid #aaa;
+    border-top: 0;
+    background: #fff;
+    box-shadow: 0 4px 5px rgba(0,0,0,.15);
+}
+
+.ui-widget-content a:not(.dt-button):not(.ui-tabs-anchor):not(.ui-state-default):not(.chosen-single)
+{
+    color: -webkit-link;
+}
+
+.formImageIconSize
+{
+    width:20px;
+    height:20px;
+    cursor:pointer;
+}
+
+.formTableCellFormat
+{
+    width:22.5%;
+}
+
+.formTableMiddleCellFormat
+{
+    width:10%;
+}
+
+.formTableForLogoAndTable
+{
+    border-style: solid;
+    border-width: 0px;
+    width: 100%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    
+    
+}
+
+.formLogoTableCell
+{
+    column-span: all;
+    text-align: left;
+    width: 50%;
+}
+
+.formTitleTableCell
+{
+    text-align: right;
+    width: 50%;
+    border-right-color: white;
+    padding-right: 15px;
+    color: #595959;
+}
+
+.formTitleTableCell h1
+{
+    font-weight:bold;
+}
+
+table.highlight-table td:hover {
+  background: #b7b7b7;
+}
+
+.formTable
+{
+    border-style: none;
+    border-width: 0px;
+    width: 100%; 
+    border-collapse: collapse;
+    margin: 0px auto; /* to center the table */
+    border-spacing: 0px 10px;
+}
+
+.formTableHeader
+{
+    text-align: left; 
+    background-color: #197b30;
+    font-weight: bold;
+    color:#ffffff;
+    border-top: 0.5px solid white;
+    border-bottom: 0.5px solid white;   
+    height: 25px;
+    font-size: small;  
+    height: 35px;   
+}
+
+.formTableHeader1
+{
+    background-color: white;
+
+}
+
+.formFieldText
+{
+    color: #595959;  /* - lighter grey */
+    border-style: none;
+    border-width: 0px;
+    font-size: 14px;
+    border-top: 0.5px solid black;
+    border-bottom: 0.5px solid black;
+    height: 20px;
+    text-align: left;
+}
+
+.formFieldInput
+{
+    color:#595959; /* lighter grey */
+    border-style: solid;
+    border-width: 0.5px; 
+    font-size: 14px;
+    padding: 5px;
+}
+
+.formFieldInputBorderless
+{
+    border-style: none;
+    border-width: 0px;
+}
+
+.formTableCellInformation
+{
+    font-weight: normal;
+}
+
+.formFieldTextRequired:after
+{
+    color: red;
+    content:" *"; 
+}
+
+.formFieldNumberFormat
+{
+    text-align:right;
+    float:right;
+}
+
+table.dataTable
+{
+    border-collapse: collapse;
+}
+
+input[type=submit].btnSubmit
+{
+    background:#fff3e6;
+    border: 0.5px solid black;
+    color: #595959;
+    margin-right: 5px;
+    width: 170px;
+    height: 26px;
+    float : left;
+    font-size: medium;
+    font-weight: bold;
+    box-shadow: none;
+    outline-color: white;
+    
+}
+
+ td input.btnSubmit:hover
+{
+    visibility: visible;
+    background-color: #ffe6cc;
+    border: 0.5px solid black;
+    color: #595959;
+    margin-right: 5px;
+    width: 170px;
+    height: 26px;
+    float : left;
+    font-size: medium;
+    font-weight: bold;
+    box-shadow: none;
+    outline-color: white;
+}
+
+.inputBorderless
+{
+    border: none;
+    border-color: transparent;
+}
+
+.text {
+position:relative;
+bottom:30px;
+left:0px;
+visibility:hidden;
+}
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Jun, 2019, 12:37:22 PM
+    Author     : Wildan
+*/
+
+/* button filter and add style */
+.btnMGRStyle {
+    background: #ffffff !important;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #197b30 !important;
+    border: 1px solid #197b30 !important;
+    width: 80px;
+    height: 35px;
+}
+
+/* when button hover or active the color change */
+.btnMGRStyle:hover, .btnMGRStyle:active {
+    background: #197b30 !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+}
+
+/* button button to border radius */
+a.dt-button {
+    border-radius: 5px !important;
+}
+
+/* div filter to the bottom same with button library datatables */
+div.dataTables_filter, div.dataTables_length {
+    margin-top: 5px;
+}
+
+/* set relative to the top of the container*/
+div#dt_searchAndButtonContainer_dtContractMasterList {
+    position: relative;
+    left: 5px;
+    bottom: 55px;
+}
+
+/*for text search, button library, show entries change into sans on font and color #666666 */
+div.dataTables_filter label,
+div.dt-buttons a.dt-button,
+div.dataTables_length label,
+div.dataTables_info,
+a.paginate_button,
+td.dataTables_empty
+{
+    font-family: 'OpenSans-Regular';
+    color: #666666 !important;
+}
+
+/* for input type outline color green when focus */
+div#dt_searchAndButtonContainer_dtContractMasterList div#dtContractMasterList_filter label input:focus
+{
+    outline-color: #197b30 !important;
+}
+
+/* set border bottom for thead and tbody to be #b7b7b7 */
+#dtContractMasterList thead tr,
+table.dataTable.no-footer
+{
+    border-bottom: 1px solid #b7b7b7 !important;
+} 
+
+/*set input filter datatable to no margin top */
+div.dataTables_filter {
+    margin-top: 3.5px;
+}
+
+tr {
+    cursor: pointer;
+}
+
+/* chosen container */
+.chosen-container {
+    width: 180px !important;
+}
+
+#dt_searchAndButtonContainer_dtSummaryTable{
+    position: relative;
+    left: 5px;
+    bottom: 38px;
+}
+
+div.dataTables_filter label,
+div.dt-buttons a.dt-button,
+div.dataTables_length label,
+div.dataTables_info,
+a.paginate_button,
+td.dataTables_empty {
+    font-family: 'OpenSans-Regular';
+    color: #666666 !important;
+}
+
+input[type=file]#file {
+    font-family: 'OpenSans-Regular';
+    color: #666666 !important;
+}
+
+img.logoMinimize {
+    padding-right: 10px;
+    padding-top: 9.5px; 
+    height: 25px; 
+    width: 25px
+}
+
+img.logoRemove {
+    padding-top: 9.5px; 
+    height: 25px; 
+    width: 25px; 
+    padding-right: 5px;
+}
+
+
+input[type="search"]:focus { 
+    overflow: hidden;
+    border: 1px solid #b7b7b7;
+    height: 30px;
+    font-family: 'OpenSans-Regular' !important;
+    color: #666666 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px !important;
+    outline: none;
+    border-color: #197b30 !important;
+}
+
+input[type="search"] { 
+    overflow: hidden;
+    border: 1px solid #b7b7b7;
+    height: 30px;
+    font-family: 'OpenSans-Regular' !important;
+    color: #666666 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px !important;
+    outline: none;
+}

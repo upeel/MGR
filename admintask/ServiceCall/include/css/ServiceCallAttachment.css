@@ -1,0 +1,22 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Aug, 2019, 5:07:02 PM
+    Author     : Wildan
+*/
+
+#contractDropZoneContainer {
+    border-radius: 30px;
+    background-color: white;
+    color: #666666;
+    border: 1px solid #b7b7b7;
+}
+
+#contractDropZoneContainer:hover {
+    cursor: pointer;
+    background-color: #666666;
+    color: #ffffff;
+}

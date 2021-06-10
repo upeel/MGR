@@ -1,0 +1,95 @@
+
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Jun, 2019, 12:37:31 PM
+    Author     : Wildan
+*/
+/* label horizontal line mgr */
+.horizontalLineMgr {
+    border-top: 3px solid #b7b7b7; 
+    position: relative; 
+    padding-right: 100%; 
+    top: 48.5px; 
+    padding-left: 0;
+}
+
+label.tabs:hover {
+    cursor: pointer;
+}
+
+/* color and border-bottom when tab checked */
+input:checked + label {
+  color: #197b30;
+  border-bottom: 3px solid #197b30;
+}
+
+label#tabs1:hover > span > img {
+    background: url('../../../../include/mgr/include/images/MGR-LOGO/Client Info Green.png') no-repeat;
+}
+
+input#tab2:checked + label > span > img {
+    background: url('../../../../include/mgr/include/images/MGR-LOGO/Shipping Info Green.png');
+}
+
+input + label {
+    border-bottom: 3px solid #b7b7b7;
+}
+
+/* display none the section */
+section {
+    display: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+#tab1:checked ~ #content1,
+#tab2:checked ~ #content2,
+#tab3:checked ~ #content3{
+  display:block;
+}
+
+/* display input check none the tab */
+#tab1, #tab2, #tab3{
+    display: none
+}
+
+.buttonGreen
+{
+    background: #197b30 !important;
+    border: 1px solid #197b30;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #fff !important;
+    width: 80px;
+    height: 35px;
+    box-shadow: none;;color: white;background-color: #197b30 !important;border-radius: 3px;width: 100px;height: 40px;float: right;
+}
+
+.buttonWhite
+{
+    box-shadow: none !important;background-color: black !important;border-radius: 5px !important; width: 155px ; height: 40px;
+    position: relative;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 0.333em;
+    padding: 0.5em 1em;
+    cursor: pointer;
+    font-size: 0.88em;
+    color: #666666;
+    white-space: nowrap;
+    overflow: hidden;
+    outline-color: #b7b7b7;
+    background-image: none !important;
+    border:  1px solid #bfbfbf !important;
+    width: 155px !important;
+    background-color: white !important;
+    border-width: 1px !important;
+    
+}
+/*batas code steve*/

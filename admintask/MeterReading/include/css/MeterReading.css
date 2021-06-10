@@ -1,0 +1,44 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 14 Jan, 2020, 1:51:07 PM
+    Author     : Wildan
+*/
+
+#btnCreate, #btnPrint, #btnUpdate{
+    background: #197b30 !important;
+    border: 1px solid #197b30;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #fff !important;
+    width: 80px;
+    height: 35px;
+    margin-bottom: 30px;
+}
+
+#btnMachine, #btnDuplicate{
+    background: #ffffff !important;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #197b30 !important;
+    border: 1px solid #197b30 !important;
+    width: 150px;
+    height: 35px;
+}
+
+/* when button hover or active the color change */
+#btnMachine:hover, #btnMachine:active, #btnDuplicate:hover, #btnDuplicate:active{
+    background: #197b30 !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+}
+
+
+

@@ -1,0 +1,104 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 18 Nov, 2019, 9:36:59 AM
+    Author     : Wildan
+*/
+
+a {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+input[type=search] {
+    overflow: hidden;
+    border: 1px solid #b7b7b7;
+    height: 30px;
+    font-family: 'OpenSans-Regular' !important;
+    color: #666666 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px !important;
+    outline: none;
+}
+.dataTables_paginate  {
+    padding-top: 1em !important;
+}
+
+.dataTables_info{
+    padding-top: 1em !important;
+}
+.dataTables_info{
+    padding-top: 2.00em;
+}
+
+.tableStyleMgr{
+    color: #666666 !important
+}
+
+.DataTableTfoots {
+    background-color: #fff !important;
+    color: #898989;
+    border-top: 1px solid #dadada;
+    border: 1px solid #dadada;
+    font-size: 14.5px !important;
+    /*height: 50px !important;*/
+    /*font-family: 'OpenSans-Regular';*/
+}
+
+table.dataTable tfoot th, table.dataTable tfoot td {
+    padding: 10px 18px 6px 18px;
+    border-top: 1px solid #dadada;
+    /*border-bottom: 1px solid #dadada;*/
+}
+
+/*.styleTableHeaderMgr{
+    font-family: 'OpenSans-Bold';
+}*/
+
+#dtItemSalesReport > tfoot > tr:last-child{
+    height: 40px;
+    background-color: #fff !important;
+}
+
+#dtCustSalesReport > tfoot > tr:last-child{
+    height: 40px;
+    background-color: #fff !important;
+}
+
+.logoTitleMgr {
+    background-color: #ffffff
+}
+
+.formTitleTableCell {
+    background-color: #ffffff
+}
+
+/*table.formTableForLogoAndTable{
+    height: 30px
+}*/
+
+/*#dtItemSalesReport > tfoot > tr:last-child > td:first-child{
+    border-left: 1px solid #dedede;
+    border-bottom-left-radius: 7px !important
+}
+
+#dtItemSalesReport > tfoot > tr:last-child > td:first-child{
+    border-right: 1px solid #dedede;
+    border-bottom-right-radius: 7px !important
+}*/
+
+/*#dtItemSalesReport{
+    font-family: sans-serif;
+    color: #232323;
+    border-collapse: collapse;
+}
+
+#dtItemSalesReport{
+    border: 1px solid #999;
+    padding: 8px 20px;
+}*/

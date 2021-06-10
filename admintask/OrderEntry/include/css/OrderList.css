@@ -1,0 +1,108 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 Jul, 2019, 9:40:08 AM
+    Author     : Wildan
+*/
+
+/* button filter and add style */
+.btnMGRStyle {
+    background: #ffffff !important;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #197b30 !important;
+    border: 1px solid #197b30 !important;
+    width: 80px;
+    height: 35px;
+}
+
+/* when button hover or active the color change */
+.btnMGRStyle:hover, .btnMGRStyle:active {
+    background: #197b30 !important;
+    color: #ffffff !important;
+    border: 1px solid #ffffff !important;
+}
+
+/* button button to border radius */
+a.dt-button, a.paginate_button {
+    border-radius: 5px !important;
+}
+
+/* div filter to the bottom same with button library datatables */
+div.dataTables_filter, div.dataTables_length {
+    margin-top: 5px;
+}
+
+/* set relative to the top of the container*/
+div#dt_searchAndButtonContainer_dtOrderListList {
+    position: relative;
+    left: 5px;
+    bottom: 38px;
+}
+
+/*for text search, button library, show entries change into sans on font and color #666666 */
+div.dataTables_filter label,
+div.dt-buttons a.dt-button,
+div.dataTables_length label,
+div.dataTables_info,
+a.paginate_button,
+td.dataTables_empty,
+#dtOrderListList tbody td
+{
+    font-family: 'OpenSans-Regular';
+    color: #666666 !important;
+}
+
+/* for input type outline color green when focus */
+div#dt_searchAndButtonContainer_dtOrderListList div#dtOrderListList_filter label input:focus
+{
+    outline-color: #197b30 !important;
+}
+
+/* set border bottom for thead and tbody to be #b7b7b7 */
+#dtOrderListList thead tr,
+table.dataTable.no-footer
+{
+    border-bottom: 1px solid #b7b7b7 !important;
+} 
+
+/*set input filter datatable to no margin top */
+div.dataTables_filter {
+    margin-top: 3.5px;
+}
+
+/* display none for datatables_length built in from datatable*/
+#dtOrderListList_length label {
+    display: none !important;
+}
+
+/** for datatables search button **/
+input[type="search"]:focus { 
+    overflow: hidden;
+    border: 1px solid #b7b7b7;
+    height: 30px;
+    font-family: 'OpenSans-Regular' !important;
+    color: #666666 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px !important;
+    outline: none;
+    border-color: #197b30 !important;
+}
+
+input[type="search"] { 
+    overflow: hidden;
+    border: 1px solid #b7b7b7;
+    height: 30px;
+    font-family: 'OpenSans-Regular' !important;
+    color: #666666 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px !important;
+    outline: none;
+}

@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 12 Jul, 2019, 4:28:41 PM
+    Author     : Steven
+*/
+
+#btnAddItemList {
+    background: #ffffff !important;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #666666 !important;
+    border: 1px solid #b7b7b7 !important;
+    width: 80px;
+    height: 35px;
+}
+
+#dtItemEntityList input[type=text] {
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid #b7b7b7;
+    height: 30px;
+    font-family: 'OpenSans-Regular' !important;
+    color: #666666 !important; 
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+#dtItemEntityList input[type=text]:focus {
+    outline: none;
+    border: 1px solid #197b30;
+}
+
+/* section div margin top */
+.itemSectionDiv {
+    top: 25px; 
+    position: relative;
+}
+
+#txtSearchItem {
+    overflow: hidden;
+    border: 1px solid #b7b7b7;
+    height: 30px;
+    font-family: 'OpenSans-Regular' !important;
+    color: #666666 !important;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 5px !important;
+    outline: none;
+}

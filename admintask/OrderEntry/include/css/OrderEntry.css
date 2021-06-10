@@ -1,0 +1,128 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 5 Jul, 2019, 10:44:35 AM
+    Author     : Wildan
+*/
+
+
+.textAreaTop
+{
+    vertical-align: top;
+}
+
+.entryAmount
+{
+    width: 150px !important;
+    outline: none;
+    cursor: default;
+}
+
+.total
+{
+    width: 120px;
+}
+
+.unitPrice
+{
+    width: 100px;
+}
+
+.uom
+{
+    width: 70px;
+}
+
+.quantity
+{
+    width: 100px;
+}
+
+.itemName
+{
+    width: 400px;    
+}
+
+.mgrThead2FontSize
+{
+    text-align: left;
+}
+.partNo
+{
+    width: 120px;
+}
+
+.itemSku
+{
+    width: 120px;
+}
+.no
+{
+    width: 40px;
+}
+
+.bgWhite
+{
+    background-color: #ffffff !important;
+}
+
+/* btn mgr posting style */
+#btnSubmit {
+    background: #197b30 !important;
+    border: 1px solid #197b30;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #fff !important;
+    width: 80px;
+    height: 35px;
+    margin-bottom: 40px;
+}
+
+#btnSave {
+    background: #ffffff !important;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #666666 !important;
+    border: 1px solid #b7b7b7 !important;
+    width: 80px;
+    height: 35px;
+}
+
+#btnCancel {
+    background: #ffffff !important;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 5px !important;
+    color: #666666 !important;
+    border: 1px solid #b7b7b7 !important;
+    width: 80px;
+    height: 35px;
+}
+
+.paddingTop
+{
+    padding-top:10px;
+}
+
+.borderBottom
+{
+    border-bottom: 1px solid #b7b7b7;
+}
+
+#removeGarbage {
+    text-decoration: underline;
+    color: blue;
+    cursor: pointer;
+}
+
+#removeGarbage:hover {
+    color: red;
+}
